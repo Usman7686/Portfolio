@@ -1,0 +1,31 @@
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar brand hover */
+.navbar-brand:hover {
+  color: #0d6efd !important;
+  transition: 0.3s;
+}
+
+/* Card hover effect */
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+#img{
+    width: 500px;
+    height:500px ;
+}
+#image{
+    
+    height:235px ;
+}
